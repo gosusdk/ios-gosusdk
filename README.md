@@ -250,6 +250,9 @@ Open it in source mode and insert the following code:
   [[GosuSDK sharedInstance] IDSignOut];
   [[GosuSDK sharedInstance] deleteAccount:^(NSDictionary<NSString *,id> *callback) {
       NSLog(@"delete account = %@",callback);
+      /*
+        The callback will have 2 values: success or failed
+      */
   }];
   ```
 ### Make payments through Google Billing IAP for in-app purchases.
