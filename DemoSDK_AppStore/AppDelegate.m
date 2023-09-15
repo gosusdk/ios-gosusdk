@@ -11,7 +11,6 @@
 #import "GosuSDK.h"
 #import <UserNotifications/UserNotifications.h>
 #import "FirebaseManager.h"
-@import FBSDKLoginKit;
 
 @interface AppDelegate ()<FIRMessagingDelegate, UNUserNotificationCenterDelegate>
 
@@ -34,6 +33,7 @@ NSString *const kGCMMessageIDKey = @"gcm.message_id";
     
     //GosuSDK
     [[GosuSDK sharedInstance] initSDK];
+    [[GosuSDK sharedInstance] onlyInitSDK];
     [[GosuSDK sharedInstance] applicationDelegate:self andApplication:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
