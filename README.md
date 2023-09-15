@@ -61,17 +61,17 @@ Open it in source mode and insert the following code:
 ##### Configure GoogleSignIn in your project (default info.plist)
   ** Refer [Get started with Google Sign-In for iOS](https://developers.google.com/identity/sign-in/ios/start-integrating) **
   ```xml
-   <key>GoogleAppID</key>
-   <string>1234567890-abcdefg.apps.googleusercontent.com</string>
-   <key>CFBundleURLTypes</key>
-   <array>
-    <dict>
-       <key>CFBundleURLSchemes</key>
-       <array>
-          <string>com.googleusercontent.apps.1234567890-abcdefg</string>
-       </array>
-    </dict>
-   </array>
+    <key>GIDClientID</key>
+    <string>YOUR_IOS_CLIENT_ID</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>YOUR_DOT_REVERSED_IOS_CLIENT_ID</string>
+        </array>
+      </dict>
+    </array>
   ```
   
 ##### Configure FacebookSDK in your project (default info.plist)
