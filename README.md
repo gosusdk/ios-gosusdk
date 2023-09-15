@@ -49,7 +49,7 @@ Open it in source mode and insert the following code:
 - Configure 'GameClientID' in your .plist file (default: info.plist). In the <string> tag, the 'GameSdkSignature' key will be provided privately via email:
 ```xml
 <key>GameSdkSignature</key>
-<string>GameSDKSignature</string>
+<string>BundleId</string>
 ```
 ##### Configure Airbridge in your project (default info.plist)
   ```xml
