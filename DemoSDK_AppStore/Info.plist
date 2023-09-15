@@ -51,7 +51,7 @@
 	<string>3729073mffk0ffos38</string>
 	<key>GameSdkSignature_gosu</key>
 	<string>test.gosu.vn</string>
-	<key>GoogleAppID</key>
+	<key>GIDClientID</key>
 	<string>599125603004-1ro52uln95jfuc59bku4tapv5iah29jf.apps.googleusercontent.com</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>

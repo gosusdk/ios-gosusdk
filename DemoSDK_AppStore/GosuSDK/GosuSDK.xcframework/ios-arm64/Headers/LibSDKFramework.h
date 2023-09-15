@@ -29,7 +29,7 @@
 - (void) onlyInitSDK;
 - (void) showSignIn;
 - (void) showIAP:(IAPDataRequest *) iapData andMainView:(UIViewController *)mainView;
-- (void) IDSignOut;
+- (void) logout;
 
 //tracking
 - (void)applicationDidBecomeActive:(UIApplication *)application;

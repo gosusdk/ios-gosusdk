@@ -101,6 +101,7 @@
     NSLog(@"load view");
     [super viewDidLoad];
     [GosuSDK sharedInstance].delegate = self;
+    [[GosuSDK sharedInstance] logout];
     
     //set hidden all button
     [_btn_report setHidden:YES];
@@ -187,7 +188,7 @@
     NSLog(@"product_id:%@, apple_secret:%@, order_id:%@, orderInfo:%@, amount:%@, server:%@, username:%@", productID, appleSecret, orderID, orderInfo, amount, server, _userName);
     //
     IAPDataRequest *iapData = [[IAPDataRequest alloc] initWithData:_userName andOrderId:orderID andOrderInfo:orderInfo andServerID:server andAmount:amount andAppleProductID:productID andAppleShareSecrect:appleSecret andRoleID:character andExtraInfo:extraInfo];
-    [[GosuSDK sharedInstance] showIAP:(IAPDataRequest *)iapData andMainView:self];
+    [[GosuSDK sharedInstance] showIAP:(IAPDataRequest *)iapData andMainView:self /*UIViewController*/];
     
 }
 - (void) IAPInitFailed:(NSString *)message andErrorCode:(NSString *)errorCode
@@ -269,7 +270,7 @@
 - (IBAction) call_refresh:(id)sender
 {
     _lblName.text = @"";
-    [[GosuSDK sharedInstance] IDSignOut];
+    [[GosuSDK sharedInstance] logout];
     [[GosuSDK sharedInstance] showSignIn];
 }
 
