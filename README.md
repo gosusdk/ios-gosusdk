@@ -247,7 +247,7 @@ Open it in source mode and insert the following code:
   [[GosuSDK sharedInstance] onlyInitSDK];
   //The result will return delegate.
   [[GosuSDK sharedInstance] showSignIn];
-  [[GosuSDK sharedInstance] IDSignOut];
+  [[GosuSDK sharedInstance] logout];
   [[GosuSDK sharedInstance] deleteAccount:^(NSDictionary<NSString *,id> *callback) {
       NSLog(@"delete account = %@",callback);
       /*
