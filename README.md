@@ -24,8 +24,11 @@ GosuSDK for iOS
   - SystemConfiguration.framework
   - MessageUI.framework
   - Accelerate.framework
-  - AdSupport.framework
-  - AppTrackingTransparency.framework
+  - **AdSupport.framework**
+  - **AppTrackingTransparency.framework**
+  - **AdServices.framework**
+  - **StoreKit.framework**
+  - **iAd.framework**
 - Add Capabilities: Sign-in with Apple, Push Notifications
 ##### NOTE: For Facebook iOS SDK version 13 or later:
   - Create a Swift file with an arbitrary name, and confirm "Create Bridging Header" when prompted.
