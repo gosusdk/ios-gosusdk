@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>zh_CN</string>
 	<key>CFBundleDisplayName</key>
-	<string>TienKiemKyHiep</string>
+	<string>GosuDemo V1.1.0</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -43,16 +43,18 @@
 	<string>CLIENT-TOKEN</string>
 	<key>FacebookDisplayName</key>
 	<string>Liên Minh Bảo Bối</string>
+	<key>GIDClientID</key>
+	<string>599125603004-1ro52uln95jfuc59bku4tapv5iah29jf.apps.googleusercontent.com</string>
 	<key>GameClientID</key>
 	<string>m396.yezagbejdfstpwxvic</string>
-	<key>GameClientID_gosu</key>
-	<string>mtest_pyq1no38b959wknkke</string>
 	<key>GameSdkSignature</key>
 	<string>3729073mffk0ffos38</string>
 	<key>GameSdkSignature_gosu</key>
 	<string>test.gosu.vn</string>
-	<key>GIDClientID</key>
-	<string>599125603004-1ro52uln95jfuc59bku4tapv5iah29jf.apps.googleusercontent.com</string>
+	<key>ItsSigningKey</key>
+	<string>sample_value</string>
+	<key>ItsWriteKey</key>
+	<string>sample_value</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
@@ -103,15 +105,8 @@
 	<key>UIStatusBarHidden</key>
 	<false/>
 	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleLightContent</string>
+	<string></string>
 	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
