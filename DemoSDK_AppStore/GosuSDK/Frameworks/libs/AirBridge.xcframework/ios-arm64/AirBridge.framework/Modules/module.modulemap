@@ -1,6 +1,0 @@
-framework module AirBridge {
-  umbrella header "ABUmbrella.h"
-
-  export *
-  module * { export * }
-}

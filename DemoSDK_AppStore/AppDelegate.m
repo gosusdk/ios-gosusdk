@@ -168,4 +168,9 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 }
 
 // [END ios_10_message_handling]
+
+- (UIInterfaceOrientationMask)application:(UIApplication*)application supportedInterfaceOrientationsForWindow:(UIWindow*) window {
+
+    return UIInterfaceOrientationMaskLandscape;
+}
 @end

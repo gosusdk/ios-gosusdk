@@ -6,11 +6,15 @@
 	<dict>
 		<key>GrpcViewController.nib/objects-14.0+.nib</key>
 		<data>
-		/G0shH/YDqgxEsBVeK6Fl7Vwxkw=
+		P5s47PtiKMYG4XNwfhaHotD++bI=
 		</data>
 		<key>GrpcViewController.nib/runtime.nib</key>
 		<data>
-		sX1LouwSWv0Hn6HoSBz0FQhzo40=
+		LmW311Ahxxwg4CPeto84A+Il7ek=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		qrTeQ2UxVWnoD78aHYqIph45uxc=
 		</data>
 		<key>SDKDataConfiguration</key>
 		<data>
@@ -26,7 +30,7 @@
 		</data>
 		<key>gamesdk_language.plist</key>
 		<data>
-		fGdU7AVNf8WI8ELc2lyG+jZgxfs=
+		Lwp08J1s5pkTYbwgreRJcWQuEQo=
 		</data>
 		<key>google_logo.png</key>
 		<data>
@@ -106,7 +110,7 @@
 		</data>
 		<key>oPayViewController.nib</key>
 		<data>
-		tpbFeULhrQIDQTJbLxY7p4DSVbI=
+		mQJpRvXgWbhpExFW8mPMU+cQd9Q=
 		</data>
 		<key>tao_trang.png</key>
 		<data>
@@ -123,22 +127,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/G0shH/YDqgxEsBVeK6Fl7Vwxkw=
+			P5s47PtiKMYG4XNwfhaHotD++bI=
 			</data>
 			<key>hash2</key>
 			<data>
-			+nm9XZQp7d7YPxAb8KEsyF7f9Npb2SoQKBRQVheT6Lo=
+			07IVy4ju2xN2yJWWoYhrCQbX6LkujlrLa5mc5g/dkYA=
 			</data>
 		</dict>
 		<key>GrpcViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sX1LouwSWv0Hn6HoSBz0FQhzo40=
+			LmW311Ahxxwg4CPeto84A+Il7ek=
 			</data>
 			<key>hash2</key>
 			<data>
-			T59ARDAmH2crG3aD9PB97vaj4X2JxY1aXEINtJXX7tU=
+			i8a+s12isUzY+394Gii6xt9efTe+kwHreGeik7ekhlM=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qrTeQ2UxVWnoD78aHYqIph45uxc=
+			</data>
+			<key>hash2</key>
+			<data>
+			DpJsLyiIfqPQ3n05u299FqwHN3iasmamdMybDhFz+Lg=
 			</data>
 		</dict>
 		<key>SDKDataConfiguration</key>
@@ -178,11 +193,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fGdU7AVNf8WI8ELc2lyG+jZgxfs=
+			Lwp08J1s5pkTYbwgreRJcWQuEQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bd72n+YoxHuWEV2AoTjhu1sU8GjcyULdbcbbslp52ZM=
+			rI+TNzjiGms7Tz/hYBBUvGT3EVQsn9T0uYs6b4SOs9A=
 			</data>
 		</dict>
 		<key>google_logo.png</key>
@@ -398,11 +413,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tpbFeULhrQIDQTJbLxY7p4DSVbI=
+			mQJpRvXgWbhpExFW8mPMU+cQd9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			ikvrkaByQys/TxHnXOXJv0cixgI+xiiwK6kJQ0Wo/7M=
+			/Z48ZAI3SCGeB3ssqXDxSdskBe9R3tjS0YsJX343KDI=
 			</data>
 		</dict>
 		<key>tao_trang.png</key>
